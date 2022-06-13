@@ -52,6 +52,7 @@ class App extends Component{
         render(){
             return(
                 <div className="container">
+                    <h1>Aqui está um belo cronometro</h1>
 
                     <img className="img" src={require('./assets/cronometro.png')} alt="cronometro"/>
                     <a className="timer">{this.state.numero.toFixed(1)}</a>
