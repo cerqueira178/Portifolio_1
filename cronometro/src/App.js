@@ -58,7 +58,7 @@ class App extends Component{
 
                     <div className="areaBtn">
                         <a className="botao" onClick={this.vai}>{this.state.botao}</a>
-                        <a className="botao" onClick={this.limpar}>LIMPAR</a>
+                        <a className="botao" onClick={this.limpar}>CLEAR</a>
                     </div>
 
                 </div>
