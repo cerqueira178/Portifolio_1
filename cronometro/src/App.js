@@ -66,6 +66,7 @@ class App extends Component{
                         <a className="botao" onClick={this.limpar}>LIMPAR</a>
                     </div>
 
+                <h1>Utilizando react</h1>
                 </div>
             );
         }
