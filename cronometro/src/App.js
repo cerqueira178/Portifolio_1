@@ -52,7 +52,9 @@ class App extends Component{
         render(){
             return(
                 <div className="container">
-                    <h1>Aqui está um belo cronômetro cinza-azulado</h1>
+                    <h1>Trabalhando com pr's no git</h1>
+                    <h1>Aqui está um lindo cronômetro</h1>
+
 
                     <img className="img" src={require('./assets/cronometro.png')} alt="cronometro"/>
                     <a className="timer">{this.state.numero.toFixed(1)}</a>
@@ -62,6 +64,7 @@ class App extends Component{
                         <a className="botao" onClick={this.limpar}>LIMPAR</a>
                     </div>
 
+                <h1>Utilizando react. trabalhando com workflow centralizado</h1>
                 </div>
             );
         }
