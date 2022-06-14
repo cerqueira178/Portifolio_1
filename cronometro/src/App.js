@@ -66,7 +66,7 @@ class App extends Component{
                         <a className="botao" onClick={this.limpar}>LIMPAR</a>
                     </div>
 
-                <h1>manobrando o  react. rebase stash</h1>
+                <h1>Utilizando react. rebase stash</h1>
                 </div>
             );
         }
