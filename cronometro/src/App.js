@@ -52,11 +52,9 @@ class App extends Component{
         render(){
             return(
                 <div className="container">
-<<<<<<< HEAD
                     <h1>Aqui está um belo cronômetro cinza-azulado</h1>
-=======
                     <h1>Aqui está um lindo cronômetro</h1>
->>>>>>> 3b210dc (update cronometro description)
+
 
                     <img className="img" src={require('./assets/cronometro.png')} alt="cronometro"/>
                     <a className="timer">{this.state.numero.toFixed(1)}</a>
