@@ -66,7 +66,7 @@ class App extends Component{
                         <a className="botao" onClick={this.limpar}>LIMPAR</a>
                     </div>
 
-                <h1>Utilizando react.js rebase encoding</h1>
+                <h1>Utilizando react. rebase encoding</h1>
                 </div>
             );
         }
